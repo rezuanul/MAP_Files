@@ -1,0 +1,20 @@
+{
+  "/home/raspberry-node/MAP/mypi9/4263/all_block_data.json": {
+    "md5_checksum": "d751713988987e9331980363e24189ce"
+  },
+  "/home/raspberry-node/MAP/mypi9/4263/block_data.log": {
+    "md5_checksum": "5b0ef7f3ea48d53d175b3cf15e06fa54"
+  },
+  "/home/raspberry-node/MAP/mypi9/4263/chain_output.json": {
+    "md5_checksum": "d751713988987e9331980363e24189ce"
+  },
+  "/home/raspberry-node/MAP/mypi9/4263/mining_output.log": {
+    "md5_checksum": "4c7a06124fea2aa22b1b1f4b48f39a92"
+  },
+  "/home/raspberry-node/MAP/mypi9/4263/output_mining.json": {
+    "md5_checksum": "d5a6c7df7bc2e4b9281b99ebf5630951"
+  },
+  "/home/raspberry-node/MAP/mypi9/4263/output.json": {
+    "md5_checksum": "2e5988511d421f1a6e4f0ed02535f330"
+  }
+}
