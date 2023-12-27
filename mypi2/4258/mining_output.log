@@ -1,0 +1,100 @@
+INFO [12-13|20:02:40.822] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|20:02:40.827] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|20:02:40.838] Set global gas cap                       cap=50,000,000
+INFO [12-13|20:02:40.848] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|20:02:40.848] Using leveldb as the backing database 
+INFO [12-13|20:02:40.849] Allocated cache and file handles         database=/home/raspberry-node/.testchain44/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-13|20:02:40.903] Using LevelDB as the backing database 
+INFO [12-13|20:02:40.905] Opened ancient database                  database=/home/raspberry-node/.testchain44/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|20:02:40.906] Disk storage enabled for ethash caches   dir=/home/raspberry-node/.testchain44/geth/ethash count=3
+INFO [12-13|20:02:40.906] Disk storage enabled for ethash DAGs     dir=/home/raspberry-node/.ethash count=2
+INFO [12-13|20:02:40.907] Initialising Ethereum protocol           network=42 dbversion=<nil>
+INFO [12-13|20:02:40.908]  
+INFO [12-13|20:02:40.908] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|20:02:40.908] Chain ID:  4258 (unknown) 
+INFO [12-13|20:02:40.908] Consensus: Ethash (proof-of-work) 
+INFO [12-13|20:02:40.908]  
+INFO [12-13|20:02:40.908] Pre-Merge hard forks (block based): 
+INFO [12-13|20:02:40.908]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|20:02:40.908]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|20:02:40.908]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|20:02:40.908]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|20:02:40.908]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|20:02:40.908]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|20:02:40.908]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|20:02:40.908]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|20:02:40.908]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|20:02:40.908]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|20:02:40.908]  
+INFO [12-13|20:02:40.908] The Merge is not yet available for this network! 
+INFO [12-13|20:02:40.908]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|20:02:40.908]  
+INFO [12-13|20:02:40.908] Post-Merge hard forks (timestamp based): 
+INFO [12-13|20:02:40.908]  
+INFO [12-13|20:02:40.908] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|20:02:40.909]  
+INFO [12-13|20:02:40.909] Loaded most recent local block           number=0 hash=d7f65e..f0904b td=200 age=54y8mo3w
+WARN [12-13|20:02:40.910] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [12-13|20:02:40.910] Rebuilding state snapshot 
+INFO [12-13|20:02:40.911] Resuming state snapshot generation       root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.266ms
+INFO [12-13|20:02:40.912] Generated state snapshot                 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.963ms
+INFO [12-13|20:02:40.912] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|20:02:40.915] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|20:02:40.915] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-13|20:02:40.916] Engine API enabled                       protocol=eth
+WARN [12-13|20:02:40.916] Engine API started but chain not configured for merge yet 
+INFO [12-13|20:02:40.917] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+INFO [12-13|20:02:40.961] New local node record                    seq=1,702,494,160,955 id=ea74d964cd2de5fd ip=127.0.0.1 udp=0 tcp=4242
+INFO [12-13|20:02:40.962] Started P2P networking                   self="enode://32094c83d7c9469f4e3994e2f5a2843ea5299ee5d4f3fd2fa2fdf09e3e9071507021ce08c19c5c0c4a2991d6b92bd84d588c64ec4187feb6400d43ad42aa37a9@127.0.0.1:4242?discport=0"
+INFO [12-13|20:02:40.962] IPC endpoint opened                      url=/home/raspberry-node/.testchain44/geth.ipc
+INFO [12-13|20:02:40.962] Generated JWT secret                     path=/home/raspberry-node/.testchain44/geth/jwtsecret
+INFO [12-13|20:02:40.967] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|20:02:40.967] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+coinbase: 0x23ff3731cba8de5e7c225803c68a8474b9e34dd9
+at block: 0 (Thu Jan 01 1970 01:00:00 GMT+0100 (CET))
+ datadir: /home/raspberry-node/.testchain44
+ modules: admin:1.0 debug:1.0 engine:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> INFO [12-13|20:03:00.029] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|20:03:35.030] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-13|20:03:45.052] Looking for peers                        peercount=1 tried=0 static=2
+INFO [12-13|20:03:47.397] Block synchronisation started 
+INFO [12-13|20:03:49.521] Imported new chain segment               number=6 hash=35ce3a..2501fc blocks=6 txs=0 mgas=0.000 elapsed=19.234ms mgasps=0.000 dirty=1.42KiB
+INFO [12-13|20:03:49.521] Syncing: chain download in progress      synced=+Inf% chain=18.00B headers=6@6.00B bodies=6@6.00B receipts=6@6.00B eta=-20.772ms
+WARN [12-13|20:03:49.522] Synchronisation failed, retrying         err="sync cancelled"
+WARN [12-13|20:03:50.688] Snap syncing, discarded propagated block number=7 hash=122052..6b153c
+WARN [12-13|20:03:50.691] Snap syncing, discarded propagated block number=7 hash=e13e14..c98399
+WARN [12-13|20:03:53.217] Snap syncing, discarded propagated block number=7 hash=553002..ff585c
+WARN [12-13|20:03:57.875] Snap syncing, discarded propagated block number=7 hash=594e0a..138aaf
+INFO [12-13|20:03:59.689] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=8@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:07.696] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=8@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:15.700] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=15@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:20.053] Looking for peers                        peercount=2 tried=1 static=2
+INFO [12-13|20:04:23.707] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=16@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:31.714] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=19@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:39.719] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=28@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+INFO [12-13|20:04:43.108] Updated mining threads                   threads=1
+INFO [12-13|20:04:43.108] Transaction pool price threshold updated price=1,000,000,000
+WARN [12-13|20:04:45.637] Invalid header encountered               number=30 hash=966afa..2ed1cd parent=de59dc..3c13d3 err="unknown ancestor"
+WARN [12-13|20:04:45.637] Rewinding blockchain to block            target=0
+INFO [12-13|20:04:45.641] Loaded most recent local block           number=0  hash=d7f65e..f0904b td=200 age=54y8mo3w
+WARN [12-13|20:04:45.641] Rolled back chain segment                header=29->0 snap=6->0 block=6->0 reason="unknown ancestor"
+WARN [12-13|20:04:45.724] Synchronisation failed, dropping peer    peer=6102e3c5c2a7b2b9f66e647dd3245571ea226bc0bc48c7caaced8294ba909790 err="retrieved hash chain is invalid: unknown ancestor"
+INFO [12-13|20:04:45.724] Commit new sealing work                  number=1  sealhash=adb06d..f76515 uncles=0 txs=0 gas=0 fees=0 elapsed="738.91µs"
+INFO [12-13|20:04:45.725] Commit new sealing work                  number=1  sealhash=adb06d..f76515 uncles=0 txs=0 gas=0 fees=0 elapsed=1.237ms
+INFO [12-13|20:04:45.725] Looking for peers                        peercount=1 tried=0 static=2
+INFO [12-13|20:04:55.728] Mining aborted due to sync 
+INFO [12-13|20:04:56.068] Imported new chain segment               number=7  hash=122052..6b153c blocks=7 txs=0 mgas=0.000 elapsed=48.884ms   mgasps=0.000 age=1m16s    dirty=2.10KiB
+INFO [12-13|20:04:56.069] Syncing: chain download in progress      synced=+Inf%   chain=18.00B headers=7@6.00B  bodies=7@6.00B receipts=7@6.00B eta=-1m6.568s
+INFO [12-13|20:04:56.299] Imported new chain segment               number=41 hash=268e21..4bcd41 blocks=34 txs=0 mgas=0.000 elapsed=229.157ms  mgasps=0.000 dirty=23.31KiB
+INFO [12-13|20:04:56.301] Syncing: chain download in progress      synced=+Inf%   chain=18.00B headers=41@6.00B bodies=41@6.00B receipts=41@6.00B eta=-1m6.800s
+INFO [12-13|20:04:56.303] Commit new sealing work                  number=42 sealhash=da5545..774186 uncles=0 txs=0 gas=0 fees=0 elapsed="463.049µs"
+INFO [12-13|20:04:56.304] Commit new sealing work                  number=42 sealhash=da5545..774186 uncles=0 txs=0 gas=0 fees=0 elapsed=1.029ms
+WARN [12-13|20:04:56.302] Synchronisation failed, retrying         err="sync cancelled"
+WARN [12-13|20:04:58.283] Snap syncing, discarded propagated block number=42 hash=fade33..bf4c58
+WARN [12-13|20:04:58.712] Snap syncing, discarded propagated block number=42 hash=0eb6be..4592dc
+INFO [12-13|20:05:13.343] Looking for peers                        peercount=1 tried=1 static=2
